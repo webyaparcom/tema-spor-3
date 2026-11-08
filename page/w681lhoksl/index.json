@@ -1,0 +1,41 @@
+{
+  "id": "w681lhoksl",
+  "name": {
+    "tr": "Hakkımızda",
+    "en": "About",
+    "ar": "من نحن"
+  },
+  "description": {
+    "tr": "Mor Salon Stüdyo, küçük gruplarla çalışan ve açık sözleşme koşullarıyla üyelik sunan kurgusal bir demo stüdyodur. Hiçbir ders belirli bir sonuç vaadiyle sunulmaz.",
+    "en": "Mor Salon Studio is a fictional demo studio that works in small groups and offers membership with clear contract terms. No class is offered with a promise of specific results.",
+    "ar": "استوديو مور صالون استوديو تجريبي افتراضي يعمل بمجموعات صغيرة ويقدّم عضوية بشروط عقد واضحة. لا تُقدَّم أي حصة بوعد بنتائج محددة."
+  },
+  "keyword": {
+    "tr": "hakkımızda",
+    "en": "about",
+    "ar": "من نحن"
+  },
+  "path": "hakkimizda",
+  "icon": "info",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "8d9zve",
+      "xn0jfx",
+      "xgzli6"
+    ],
+    "footer": []
+  },
+  "index": 5,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Hakkımızda",
+    "en": "About",
+    "ar": "من نحن"
+  },
+  "date": "2026-10-31T14:41:28.319Z",
+  "update": "2026-11-05T22:24:59.264Z"
+}
