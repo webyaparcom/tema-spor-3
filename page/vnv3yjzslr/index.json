@@ -1,0 +1,41 @@
+{
+  "id": "vnv3yjzslr",
+  "name": {
+    "tr": "Dersler",
+    "en": "Classes",
+    "ar": "الحصص"
+  },
+  "description": {
+    "tr": "Seviyenize göre uygun ders; her ders eğitmen eşliğinde yapılır.",
+    "en": "A class for your level; every class is led by an instructor.",
+    "ar": "حصة تناسب مستواك؛ وتُقام كل حصة بإشراف مدرب."
+  },
+  "keyword": {
+    "tr": "spor salonu, fitness, grup dersi, üyelik",
+    "en": "gym, fitness, group classes, membership",
+    "ar": "نادٍ رياضي، لياقة، حصص جماعية، عضوية"
+  },
+  "path": "dersler",
+  "icon": "fitness_center",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "wt8e6e",
+      "tvaclc",
+      "vp91mp"
+    ],
+    "footer": []
+  },
+  "index": 0,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Dersler",
+    "en": "Classes",
+    "ar": "الحصص"
+  },
+  "date": "2026-10-31T14:41:28.300Z",
+  "update": "2026-11-05T22:24:59.249Z"
+}
