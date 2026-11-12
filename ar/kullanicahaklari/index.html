@@ -38,21 +38,21 @@
   <link rel="preload" href="/src/fonts/open-sans/open-sans-latin-ext-400-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/open-sans/open-sans-latin-ext-500-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/open-sans/open-sans-latin-ext-700-normal.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="stylesheet" href="/src/fonts/open-sans.css?v=ku6vf" />
-  <link rel="stylesheet" href="/src/fonts/poppins.css?v=ku6vf" />
-  <link rel="stylesheet" href="/src/fonts/ibm-plex-sans-arabic.css?v=ku6vf" />
-  <link rel="stylesheet" href="/src/fonts/noto-kufi-arabic.css?v=ku6vf" />
-  <link rel="stylesheet" href="/src/rubik.css?v=ku6vf" />
-  <link rel="stylesheet" href="/src/css.css?v=ku6vf" />
-  <link rel="stylesheet" href="/src/mx-ds.css?v=ku6vf" />
+  <link rel="stylesheet" href="/src/fonts/open-sans.css?v=c17pr" />
+  <link rel="stylesheet" href="/src/fonts/poppins.css?v=c17pr" />
+  <link rel="stylesheet" href="/src/fonts/ibm-plex-sans-arabic.css?v=c17pr" />
+  <link rel="stylesheet" href="/src/fonts/noto-kufi-arabic.css?v=c17pr" />
+  <link rel="stylesheet" href="/src/rubik.css?v=c17pr" />
+  <link rel="stylesheet" href="/src/css.css?v=c17pr" />
+  <link rel="stylesheet" href="/src/mx-ds.css?v=c17pr" />
   
-  <link rel="stylesheet" href="/src/mx-ui.css?v=ku6vf" />
+  <link rel="stylesheet" href="/src/mx-ui.css?v=c17pr" />
   <link rel="preload" href="/src/material-symbols-outlined.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=ku6vf" />
+  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=c17pr" />
   
-  <link rel="stylesheet" href="/src/cookie.css?v=ku6vf" />
-  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=ku6vf" />
-  <link rel="shortcut icon" href="/img/icon.png?v=ku6vf" type="image/png" />
+  <link rel="stylesheet" href="/src/cookie.css?v=c17pr" />
+  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=c17pr" />
+  <link rel="shortcut icon" href="/img/icon.png?v=c17pr" type="image/png" />
   <link rel="apple-touch-icon" href="/img/icon.png" />
   <script type="application/ld+json">
 {
@@ -106,7 +106,7 @@
         "@type": "ImageObject",
         "url": "https://spor-3.webyapar.com/img/logo.png"
       },
-      "dateModified": "2026-11-05T22:24:59.301Z",
+      "dateModified": "2026-11-12T07:36:55.124Z",
       "breadcrumb": {
         "@id": "https://spor-3.webyapar.com/ar/kullanicahaklari/#breadcrumb"
       }
@@ -133,7 +133,7 @@
 }
 </script>
   
-<link rel="stylesheet" href="style.css?v=ku6vf">
+<link rel="stylesheet" href="style.css?v=c17pr">
 </head>
 
 <body>
@@ -247,6 +247,7 @@
       <nav class="h0001-m9-nav h0001-m9-nav--sag" aria-label="التنقل">
         <ul><li><a class="h0001-m9-oge" href="/ar/deneme-dersi/">حصة تجريبية</a></li><li><a class="h0001-m9-oge" href="/ar/galeri/">المعرض</a></li><li><a class="h0001-m9-oge" href="/ar/hakkimizda/">من نحن</a></li><li><a class="h0001-m9-oge" href="/ar/iletisim/">اتصل بنا</a></li></ul>
       </nav>
+      
       <div class="h0001-m9-bar-dil"><nav class="wm-langbar" aria-label="محدد اللغة"><ul><li class="wm-lang-item"><a href="/tr/kullanicahaklari/" hreflang="tr" lang="tr">TR</a></li><li class="wm-lang-item"><a href="/en/kullanicahaklari/" hreflang="en" lang="en">EN</a></li><li class="wm-lang-item wm-lang-active"><a href="/ar/kullanicahaklari/" hreflang="ar" lang="ar" aria-current="true">AR</a></li></ul></nav></div>
       <button class="h0001-m9-hamburger" type="button" aria-expanded="false" aria-controls="m9-j3m5gh-panel" aria-label="تبديل القائمة">
         <span class="material-symbols-outlined" aria-hidden="true">menu</span>
@@ -298,6 +299,8 @@
     }
     if (dugme) { dugme.addEventListener("click", function () { if (panel && panel.hidden) { ac(); } else { kapa(); } }); }
     if (kapat) { kapat.addEventListener("click", kapa); }
+    
+    document.addEventListener("click", function (e) { if (panel && !panel.hidden && !panel.contains(e.target) && !(dugme && dugme.contains(e.target))) { kapa(); } });
     document.addEventListener("keydown", function (e) { if (e.key === "Escape") { kapa(); } });
     
     if (panel) {
@@ -331,7 +334,7 @@
   })();
 </script>
 <section class="h0002-kb h0002-kb--kart" data-mx-hero="1" aria-roledescription="carousel" aria-label="شرائح تعريفية" style="--kb-yk: 78;" data-kb-sure="6500" data-kb-pause="إيقاف التشغيل التلقائي" data-kb-play="بدء التشغيل التلقائي">
-  <div class="h0002-kb-slaytlar"><div class="h0002-kb-slayt h0002-kb-aktif" role="group" aria-roledescription="slide" aria-label="1 من 3" aria-hidden="false"><div class="h0002-kb-medya"><img src="/img/spor-3-ders-salonu.webp" alt="قاعة حصص مضيئة فيها حُصُر يوغا مصفوفة" width="1920" height="1080" loading="eager" decoding="async" fetchpriority="high" /></div><div class="h0002-kb-scrim" aria-hidden="true"></div><div class="h0002-kb-icerik"><div class="h0002-kb-ic"><p class="h0002-kb-eyebrow">استوديو بوتيك · حصص جماعية</p><h2 class="h0002-kb-baslik">الاستوديو الذي يحبّب إليك الحركة</h2><p class="h0002-kb-metin">استوديو مور صالون استوديو تجريبي افتراضي يقدّم حصص اليوغا والتدريب الوظيفي والكارديو في مجموعات صغيرة. تُذكر شروط العضوية بوضوح منذ البداية ولا تُقدَّم وعود بنتائج.</p><a class="h0002-kb-cta" href="/ar/deneme-dersi/">احجز حصة تجريبية<span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a></div></div></div><div class="h0002-kb-slayt" role="group" aria-roledescription="slide" aria-label="2 من 3" aria-hidden="true"><div class="h0002-kb-medya"><img src="/img/spor-3-havuz.webp" alt="قاعة حصص مضيئة فيها حُصُر يوغا مصفوفة" width="1920" height="1080" loading="lazy" decoding="async" /></div><div class="h0002-kb-scrim" aria-hidden="true"></div><div class="h0002-kb-icerik"><div class="h0002-kb-ic"><p class="h0002-kb-eyebrow">مسبح مغلق</p><h2 class="h0002-kb-baslik">حصص سباحة في مسبح بحارات</h2><p class="h0002-kb-metin">للمبتدئين والمتوسطين؛ بإشراف مدرب.</p><a class="h0002-kb-cta" href="/ar/dersler/">الحصص<span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a></div></div></div><div class="h0002-kb-slayt" role="group" aria-roledescription="slide" aria-label="3 من 3" aria-hidden="true"><div class="h0002-kb-medya"><img src="/img/spor-3-kettlebell.webp" alt="قاعة حصص مضيئة فيها حُصُر يوغا مصفوفة" width="1920" height="1080" loading="lazy" decoding="async" /></div><div class="h0002-kb-scrim" aria-hidden="true"></div><div class="h0002-kb-icerik"><div class="h0002-kb-ic"><p class="h0002-kb-eyebrow">وظيفي</p><h2 class="h0002-kb-baslik">تدريب يدعم الحركة اليومية</h2><p class="h0002-kb-metin">تمارين دائرية وتوازن تُكيَّف لكل مستوى.</p><a class="h0002-kb-cta" href="/ar/uyelik-paketleri/">باقات العضوية<span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a></div></div></div></div>
+  <div class="h0002-kb-slaytlar"><div class="h0002-kb-slayt h0002-kb-aktif" role="group" aria-roledescription="slide" aria-label="1 من 3" aria-hidden="false"><div class="h0002-kb-medya"><img src="/img/spor-3-ders-salonu.webp" alt="قاعة حصص مضيئة فيها حُصُر يوغا مصفوفة" width="1920" height="1080" loading="eager" decoding="async" fetchpriority="high" /></div><div class="h0002-kb-scrim" aria-hidden="true"></div><div class="h0002-kb-icerik"><div class="h0002-kb-ic"><p class="h0002-kb-eyebrow">استوديو بوتيك · حصص جماعية</p><h2 class="h0002-kb-baslik">الاستوديو الذي يحبّب إليك الحركة</h2><p class="h0002-kb-metin">استوديو مور صالون استوديو تجريبي افتراضي يقدّم حصص اليوغا والتدريب الوظيفي والكارديو والسباحة في مجموعات صغيرة. تُذكر شروط العضوية بوضوح منذ البداية ولا تُقدَّم وعود بنتائج.</p><a class="h0002-kb-cta" href="/ar/deneme-dersi/">احجز حصة تجريبية<span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a></div></div></div><div class="h0002-kb-slayt" role="group" aria-roledescription="slide" aria-label="2 من 3" aria-hidden="true"><div class="h0002-kb-medya"><img src="/img/spor-3-havuz.webp" alt="قاعة حصص مضيئة فيها حُصُر يوغا مصفوفة" width="1920" height="1080" loading="lazy" decoding="async" /></div><div class="h0002-kb-scrim" aria-hidden="true"></div><div class="h0002-kb-icerik"><div class="h0002-kb-ic"><p class="h0002-kb-eyebrow">مسبح مغلق</p><h2 class="h0002-kb-baslik">حصص سباحة في مسبح بحارات</h2><p class="h0002-kb-metin">للمبتدئين والمتوسطين؛ بإشراف مدرب.</p><a class="h0002-kb-cta" href="/ar/dersler/">الحصص<span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a></div></div></div><div class="h0002-kb-slayt" role="group" aria-roledescription="slide" aria-label="3 من 3" aria-hidden="true"><div class="h0002-kb-medya"><img src="/img/spor-3-kettlebell.webp" alt="قاعة حصص مضيئة فيها حُصُر يوغا مصفوفة" width="1920" height="1080" loading="lazy" decoding="async" /></div><div class="h0002-kb-scrim" aria-hidden="true"></div><div class="h0002-kb-icerik"><div class="h0002-kb-ic"><p class="h0002-kb-eyebrow">وظيفي</p><h2 class="h0002-kb-baslik">تدريب يدعم الحركة اليومية</h2><p class="h0002-kb-metin">تمارين دائرية وتوازن تُكيَّف لكل مستوى.</p><a class="h0002-kb-cta" href="/ar/uyelik-paketleri/">باقات العضوية<span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a></div></div></div></div>
   <div class="h0002-kb-kontrol">
     <button class="h0002-kb-ok h0002-kb-ok--geri" type="button" aria-label="الشريحة السابقة">
       <span class="material-symbols-outlined" aria-hidden="true">arrow_back</span>
@@ -855,10 +858,10 @@
   
 
   <script defer src="/src/swiper-bundle.min.js"></script>
-  <script defer src="/src/mx-ui.js?v=ku6vf"></script>
-  <script defer src="/src/mx-store.js?v=ku6vf"></script>
-  <script defer type="text/javascript" src="/src/js.js?v=ku6vf"></script>
-  <script defer src="/src/cookie.js?v=ku6vf"></script>
+  <script defer src="/src/mx-ui.js?v=c17pr"></script>
+  <script defer src="/src/mx-store.js?v=c17pr"></script>
+  <script defer type="text/javascript" src="/src/js.js?v=c17pr"></script>
+  <script defer src="/src/cookie.js?v=c17pr"></script>
 
 </body>
 

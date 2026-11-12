@@ -38,21 +38,21 @@
   <link rel="preload" href="/src/fonts/open-sans/open-sans-latin-ext-400-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/open-sans/open-sans-latin-ext-500-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/open-sans/open-sans-latin-ext-700-normal.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="stylesheet" href="/src/fonts/open-sans.css?v=w2t5d" />
-  <link rel="stylesheet" href="/src/fonts/poppins.css?v=w2t5d" />
-  <link rel="stylesheet" href="/src/fonts/ibm-plex-sans-arabic.css?v=w2t5d" />
-  <link rel="stylesheet" href="/src/fonts/noto-kufi-arabic.css?v=w2t5d" />
-  <link rel="stylesheet" href="/src/rubik.css?v=w2t5d" />
-  <link rel="stylesheet" href="/src/css.css?v=w2t5d" />
-  <link rel="stylesheet" href="/src/mx-ds.css?v=w2t5d" />
+  <link rel="stylesheet" href="/src/fonts/open-sans.css?v=bams5" />
+  <link rel="stylesheet" href="/src/fonts/poppins.css?v=bams5" />
+  <link rel="stylesheet" href="/src/fonts/ibm-plex-sans-arabic.css?v=bams5" />
+  <link rel="stylesheet" href="/src/fonts/noto-kufi-arabic.css?v=bams5" />
+  <link rel="stylesheet" href="/src/rubik.css?v=bams5" />
+  <link rel="stylesheet" href="/src/css.css?v=bams5" />
+  <link rel="stylesheet" href="/src/mx-ds.css?v=bams5" />
   
-  <link rel="stylesheet" href="/src/mx-ui.css?v=w2t5d" />
+  <link rel="stylesheet" href="/src/mx-ui.css?v=bams5" />
   <link rel="preload" href="/src/material-symbols-outlined.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=w2t5d" />
+  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=bams5" />
   
-  <link rel="stylesheet" href="/src/cookie.css?v=w2t5d" />
-  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=w2t5d" />
-  <link rel="shortcut icon" href="/img/icon.png?v=w2t5d" type="image/png" />
+  <link rel="stylesheet" href="/src/cookie.css?v=bams5" />
+  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=bams5" />
+  <link rel="shortcut icon" href="/img/icon.png?v=bams5" type="image/png" />
   <link rel="apple-touch-icon" href="/img/icon.png" />
   <script type="application/ld+json">
 {
@@ -106,7 +106,7 @@
         "@type": "ImageObject",
         "url": "https://spor-3.webyapar.com/img/logo.png"
       },
-      "dateModified": "2026-11-05T22:24:59.267Z",
+      "dateModified": "2026-11-12T07:36:55.086Z",
       "breadcrumb": {
         "@id": "https://spor-3.webyapar.com/tr/iletisim/#breadcrumb"
       }
@@ -133,7 +133,7 @@
 }
 </script>
   
-<link rel="stylesheet" href="style.css?v=w2t5d">
+<link rel="stylesheet" href="style.css?v=bams5">
 </head>
 
 <body>
@@ -247,6 +247,7 @@
       <nav class="h0001-m9-nav h0001-m9-nav--sag" aria-label="Navigasyon">
         <ul><li><a class="h0001-m9-oge" href="/tr/deneme-dersi/">Deneme Dersi</a></li><li><a class="h0001-m9-oge" href="/tr/galeri/">Galeri</a></li><li><a class="h0001-m9-oge" href="/tr/hakkimizda/">Hakkımızda</a></li><li><a class="h0001-m9-oge" href="/tr/iletisim/" aria-current="page">İletişim</a></li></ul>
       </nav>
+      
       <div class="h0001-m9-bar-dil"><nav class="wm-langbar" aria-label="Dil Seçici"><ul><li class="wm-lang-item wm-lang-active"><a href="/tr/iletisim/" hreflang="tr" lang="tr" aria-current="true">TR</a></li><li class="wm-lang-item"><a href="/en/iletisim/" hreflang="en" lang="en">EN</a></li><li class="wm-lang-item"><a href="/ar/iletisim/" hreflang="ar" lang="ar">AR</a></li></ul></nav></div>
       <button class="h0001-m9-hamburger" type="button" aria-expanded="false" aria-controls="m9-j3m5gh-panel" aria-label="Menüyü Aç/Kapat">
         <span class="material-symbols-outlined" aria-hidden="true">menu</span>
@@ -298,6 +299,8 @@
     }
     if (dugme) { dugme.addEventListener("click", function () { if (panel && panel.hidden) { ac(); } else { kapa(); } }); }
     if (kapat) { kapat.addEventListener("click", kapa); }
+    
+    document.addEventListener("click", function (e) { if (panel && !panel.hidden && !panel.contains(e.target) && !(dugme && dugme.contains(e.target))) { kapa(); } });
     document.addEventListener("keydown", function (e) { if (e.key === "Escape") { kapa(); } });
     
     if (panel) {
@@ -331,7 +334,7 @@
   })();
 </script>
 <section class="h0002-kb h0002-kb--kart" data-mx-hero="1" aria-roledescription="carousel" aria-label="Tanıtım slaytları" style="--kb-yk: 78;" data-kb-sure="6500" data-kb-pause="Otomatik oynatmayı durdur" data-kb-play="Otomatik oynatmayı başlat">
-  <div class="h0002-kb-slaytlar"><div class="h0002-kb-slayt h0002-kb-aktif" role="group" aria-roledescription="slide" aria-label="1 / 3" aria-hidden="false"><div class="h0002-kb-medya"><img src="/img/spor-3-ders-salonu.webp" alt="Yoga matları dizili aydınlık ders salonu" width="1920" height="1080" loading="eager" decoding="async" fetchpriority="high" /></div><div class="h0002-kb-scrim" aria-hidden="true"></div><div class="h0002-kb-icerik"><div class="h0002-kb-ic"><p class="h0002-kb-eyebrow">Butik stüdyo · Grup dersleri</p><h2 class="h0002-kb-baslik">Hareketi sevdiren stüdyo</h2><p class="h0002-kb-metin">Mor Salon Stüdyo; yoga, fonksiyonel ve kardiyo derslerini küçük gruplarla işleyen kurgusal bir demo stüdyodur. Üyelik koşulları baştan açıkça yazılır; sonuç vaadi verilmez.</p><a class="h0002-kb-cta" href="/tr/deneme-dersi/">Deneme dersi al<span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a></div></div></div><div class="h0002-kb-slayt" role="group" aria-roledescription="slide" aria-label="2 / 3" aria-hidden="true"><div class="h0002-kb-medya"><img src="/img/spor-3-havuz.webp" alt="Yoga matları dizili aydınlık ders salonu" width="1920" height="1080" loading="lazy" decoding="async" /></div><div class="h0002-kb-scrim" aria-hidden="true"></div><div class="h0002-kb-icerik"><div class="h0002-kb-ic"><p class="h0002-kb-eyebrow">Kapalı havuz</p><h2 class="h0002-kb-baslik">Kulvarlı havuzda yüzme dersleri</h2><p class="h0002-kb-metin">Başlangıç ve orta seviye; eğitmen eşliğinde.</p><a class="h0002-kb-cta" href="/tr/dersler/">Dersler<span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a></div></div></div><div class="h0002-kb-slayt" role="group" aria-roledescription="slide" aria-label="3 / 3" aria-hidden="true"><div class="h0002-kb-medya"><img src="/img/spor-3-kettlebell.webp" alt="Yoga matları dizili aydınlık ders salonu" width="1920" height="1080" loading="lazy" decoding="async" /></div><div class="h0002-kb-scrim" aria-hidden="true"></div><div class="h0002-kb-icerik"><div class="h0002-kb-ic"><p class="h0002-kb-eyebrow">Fonksiyonel</p><h2 class="h0002-kb-baslik">Günlük hareketi destekleyen antrenman</h2><p class="h0002-kb-metin">Çembe ve denge çalışmaları; her seviyeye uyarlanır.</p><a class="h0002-kb-cta" href="/tr/uyelik-paketleri/">Üyelik paketleri<span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a></div></div></div></div>
+  <div class="h0002-kb-slaytlar"><div class="h0002-kb-slayt h0002-kb-aktif" role="group" aria-roledescription="slide" aria-label="1 / 3" aria-hidden="false"><div class="h0002-kb-medya"><img src="/img/spor-3-ders-salonu.webp" alt="Yoga matları dizili aydınlık ders salonu" width="1920" height="1080" loading="eager" decoding="async" fetchpriority="high" /></div><div class="h0002-kb-scrim" aria-hidden="true"></div><div class="h0002-kb-icerik"><div class="h0002-kb-ic"><p class="h0002-kb-eyebrow">Butik stüdyo · Grup dersleri</p><h2 class="h0002-kb-baslik">Hareketi sevdiren stüdyo</h2><p class="h0002-kb-metin">Mor Salon Stüdyo; yoga, fonksiyonel, kardiyo ve yüzme derslerini küçük gruplarla işleyen kurgusal bir demo stüdyodur. Üyelik koşulları baştan açıkça yazılır; sonuç vaadi verilmez.</p><a class="h0002-kb-cta" href="/tr/deneme-dersi/">Deneme dersi al<span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a></div></div></div><div class="h0002-kb-slayt" role="group" aria-roledescription="slide" aria-label="2 / 3" aria-hidden="true"><div class="h0002-kb-medya"><img src="/img/spor-3-havuz.webp" alt="Yoga matları dizili aydınlık ders salonu" width="1920" height="1080" loading="lazy" decoding="async" /></div><div class="h0002-kb-scrim" aria-hidden="true"></div><div class="h0002-kb-icerik"><div class="h0002-kb-ic"><p class="h0002-kb-eyebrow">Kapalı havuz</p><h2 class="h0002-kb-baslik">Kulvarlı havuzda yüzme dersleri</h2><p class="h0002-kb-metin">Başlangıç ve orta seviye; eğitmen eşliğinde.</p><a class="h0002-kb-cta" href="/tr/dersler/">Dersler<span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a></div></div></div><div class="h0002-kb-slayt" role="group" aria-roledescription="slide" aria-label="3 / 3" aria-hidden="true"><div class="h0002-kb-medya"><img src="/img/spor-3-kettlebell.webp" alt="Yoga matları dizili aydınlık ders salonu" width="1920" height="1080" loading="lazy" decoding="async" /></div><div class="h0002-kb-scrim" aria-hidden="true"></div><div class="h0002-kb-icerik"><div class="h0002-kb-ic"><p class="h0002-kb-eyebrow">Fonksiyonel</p><h2 class="h0002-kb-baslik">Günlük hareketi destekleyen antrenman</h2><p class="h0002-kb-metin">Çembe ve denge çalışmaları; her seviyeye uyarlanır.</p><a class="h0002-kb-cta" href="/tr/uyelik-paketleri/">Üyelik paketleri<span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a></div></div></div></div>
   <div class="h0002-kb-kontrol">
     <button class="h0002-kb-ok h0002-kb-ok--geri" type="button" aria-label="Önceki slayt">
       <span class="material-symbols-outlined" aria-hidden="true">arrow_back</span>
@@ -772,10 +775,10 @@
   
 
   <script defer src="/src/swiper-bundle.min.js"></script>
-  <script defer src="/src/mx-ui.js?v=w2t5d"></script>
-  <script defer src="/src/mx-store.js?v=w2t5d"></script>
-  <script defer type="text/javascript" src="/src/js.js?v=w2t5d"></script>
-  <script defer src="/src/cookie.js?v=w2t5d"></script>
+  <script defer src="/src/mx-ui.js?v=bams5"></script>
+  <script defer src="/src/mx-store.js?v=bams5"></script>
+  <script defer type="text/javascript" src="/src/js.js?v=bams5"></script>
+  <script defer src="/src/cookie.js?v=bams5"></script>
 
 </body>
 
