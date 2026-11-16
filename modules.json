@@ -2041,7 +2041,7 @@
             "en": "Book a trial class",
             "ar": "احجز حصة تجريبية"
           },
-          "ctaUrl": "../deneme-dersi/",
+          "ctaUrl": "deneme-dersi",
           "featured": false
         },
         {
@@ -2071,7 +2071,7 @@
             "en": "Book a trial class",
             "ar": "احجز حصة تجريبية"
           },
-          "ctaUrl": "../deneme-dersi/",
+          "ctaUrl": "deneme-dersi",
           "featured": true,
           "flag": {
             "tr": "Önerilen",
@@ -2106,7 +2106,7 @@
             "en": "Book a trial class",
             "ar": "احجز حصة تجريبية"
           },
-          "ctaUrl": "../deneme-dersi/",
+          "ctaUrl": "deneme-dersi",
           "featured": false
         }
       ],
